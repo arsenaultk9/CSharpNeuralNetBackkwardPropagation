@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace CSharpNeuralNetBackkwardPropagation
 {
-    class Program
+    public class Weight
     {
-    [STAThread]
-        static void Main(string[] args)
-        {
-            new Network();
-        }
+        public Neuron Input;
+        public double Value;
     }
 }
